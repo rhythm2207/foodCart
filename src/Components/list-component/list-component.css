@@ -1,7 +1,21 @@
 .list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   font-weight: 500;
+}
+
+.item {
+  width: 300px;
+  margin-left: 50px;
+}
+
+.tick {
+  position: absolute;
+  margin: 20px;
+}
+
+.list :hover {
+  height: 20px;
+
+  transform: scale(1.1);
 }
